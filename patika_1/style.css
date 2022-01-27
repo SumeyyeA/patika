@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #dbdbdb;
+    background-color: #191919;
     font-family: 'Oxygen', sans-serif;
     height: 100%;
 }
@@ -25,7 +25,7 @@ main{
 section{
     width: 100%;
     height: auto;
-    background-color:#f1f1f1 ;
+    background-color:white ;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 0 2px 8px 2px rgba(20,23, 28, .15);
@@ -33,3 +33,14 @@ section{
     overflow: auto;
     
 } 
+.resim{
+    float: left;
+    border: 20px solid white; 
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+
