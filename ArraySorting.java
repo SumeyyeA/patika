@@ -1,13 +1,14 @@
 /*dizideki elemanları küçükten büyüğe sıralayan program
 
-Dizinin boyutu n : 5
-Dizinin elemanlarını giriniz :
-1. Elemanı : 99
-2. Elemanı : -2
-3. Elemanı : -2121
-4. Elemanı : 1
-5. Elemanı : 0
-Sıralama : -2121 -2 0 1 99
+Size of the array (n): 5
+Enter the elements of the array:
+1. Element: 99
+2. Element: -2
+3. Element: -2121
+4. Element: 1
+5. Element: 0
+Sorted array: -2121 -2 0 1 99
+
  */ 
 import java.util.Arrays;
 import java.util.Scanner;
