@@ -15,17 +15,22 @@ public class HesapMakinesi {
 
         double sonuc = 0;
 
-        if (islem == '+') {
-            sonuc = sayi1 + sayi2;
-        } else if (islem == '-') {
-            sonuc = sayi1 - sayi2;
-        } else if (islem == '*') {
-            sonuc = sayi1 * sayi2;
-        } else if (islem == '/') {
-            sonuc = sayi1 / sayi2;
-        } else {
-            System.out.println("Geçersiz işlem!");
-            System.exit(0); // Programı sonlandır
+        switch (islem) {
+            case '+':
+                sonuc = sayi1 + sayi2;
+                break;
+            case '-':
+                sonuc = sayi1 - sayi2;
+                break;
+            case '*':
+                sonuc = sayi1 * sayi2;
+                break;
+            case '/':
+                sonuc = sayi1 / sayi2;
+                break;
+            default:
+                System.out.println("Geçersiz işlem!");
+                System.exit(0); // Programı sonlandır
         }
 
         System.out.println("Sonuç: " + sonuc);
