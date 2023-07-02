@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author EXCALIBUR
+ *
+ */
+module PatikaClone {
+}
